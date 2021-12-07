@@ -25,7 +25,7 @@ def categorize_measurements(measurements: list) -> int:
 # print(categorize_measurements(data))
 
 
-def sliding_window(measurements: list) -> int:
+def get_sliding_window(measurements: list) -> int:
     """Calculates a sliding window of three measurements and then returns the number of times the measurement increased compared with previous
 
     Args:
@@ -43,4 +43,4 @@ def sliding_window(measurements: list) -> int:
     return new_measurements
 
 
-print(categorize_measurements(sliding_window(data)))
+# print(categorize_measurements(get_sliding_window(data)))
