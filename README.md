@@ -25,3 +25,21 @@ for line in data:
 
 ```
 
+## Python environment
+``` bash
+$ python -m venv aoc-env
+```
+Activate environment:
+```bash
+$ aoc-env\Scripts\activate.bat
+```
+Deactivate:
+```bash
+$ deactivate
+```
+
+## To run the tests
+Make sure you have the virtual environment activated and just run:
+``` bash
+$ pytest
+```
