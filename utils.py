@@ -12,3 +12,11 @@ def read_data(day):
             data.append(row[0])
     return data
 
+# def read_data_day4(day):
+#     DATA_PATH = os.path.join("data", "2021_{}.csv".format(day))
+#     data = list()
+#     with open(DATA_PATH, newline='') as csvfile:
+#         csv_reader = csv.reader(csvfile)
+#         for row in csv_reader:
+#             data.append(row)
+#     return data

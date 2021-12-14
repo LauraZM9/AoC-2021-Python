@@ -31,3 +31,4 @@ def test_power_consumption():
 
 def test_life_support_rating():
     assert get_life_support_rating(diagnostic_report), 230
+

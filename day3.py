@@ -25,8 +25,6 @@ def get_least_common_bit(diagnostic:list, position:int) -> str:
         return "1"
 
 def get_power_consumption(diagnostic:list) -> int:
-    """Power consumption
-    """
     gamma = ""
     epsilon = ""
     for i in range(len(diagnostic[0])):
@@ -51,8 +49,6 @@ def filter_least_common_bit(diagnostic:list) -> str:
     return diagnostic[0]
 
 def get_life_support_rating(diagnostic:list) -> int:
-    """ Life support rating
-    """
     o2 = filter_most_common_bit(diagnostic)
     co2 = filter_least_common_bit(diagnostic)
     return int(o2, 2) * int(co2, 2)
